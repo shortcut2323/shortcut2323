@@ -140,6 +140,9 @@ h3{
 
 
 .popup-content {
+    
+  　word-wrap: break-word; /* 単語が長すぎる場合は自動で改行 */
+  　white-space: normal; /* テキストがウィンドウの幅を超えると自動改行 */
     background-color: #e5f5f7;
     padding: 50px;
     border-radius: 10px;
