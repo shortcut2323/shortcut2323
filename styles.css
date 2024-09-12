@@ -153,6 +153,10 @@ h3{
     position: relative; /* 画像を追加するために必要 */
 }
 
+.popup-explanation {
+    text-decoration: underline;
+}
+
 }
 
 .popup-message {
