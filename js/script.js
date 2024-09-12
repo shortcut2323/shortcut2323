@@ -95,6 +95,9 @@ function showPopup(message, explanation, imageUrl) {
     popupExplanation.innerHTML = explanation.replace(/\n/g, '<br>');
     popupImage.src = imageUrl;
 
+popupExplanation.className = 'popup-explanation'; // 下線クラスを追加
+popupExplanation.innerHTML = explanation.replace(/\n/g, '<br>');
+
     // メッセージのスタイルを動的に変更
     if (message === '正解！') {
         popupMessage.classList.add('correct-message');
