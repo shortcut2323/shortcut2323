@@ -8,7 +8,7 @@ const questions = [
             'コンピュータのメンテナンスのため'
         ],
         correctAnswer: 1,
-        explanation: 'プログラムはコンピュータに特定のタスクや\n処理を実行させるために作られます。',
+        explanation: 'プログラムはコンピュータに特定のタスクや処理を実行させるために作られます。',
         hint: '皆のスマホのアプリにもしプログラミングがされてないとどうなるかな？',
         image: 'imges/undraw_firmware_re_fgdy.svg' // 画像URLを追加
     },
@@ -34,7 +34,7 @@ const questions = [
             'プログラムを無限に繰り返す'
         ],
         correctAnswer: 1,
-        explanation: '条件分岐(if文)は、ある条件が満たされた場合に実行する処理を決定するために使います。',
+        explanation: '条件分岐(if文)は、ある条件が満たされた場合に実行する処理を行うために使います。',
         hint: 'ifは英語でなんて言うかな？',
 		image: 'imges/undraw_mind_map_re_nlb6.svg' // 画像URLを追加
 	},
@@ -47,7 +47,7 @@ const questions = [
             'ユーザーにメッセージを表示する場合'
         ],
         correctAnswer: 1,
-        explanation: 'ループ処理は、特定の条件が満たされるまで(while文)、または指定された回数だけ処理を繰り返す(for文)ために使います。',
+        explanation: 'ループ処理は、特定の条件が満たされるか(while文)、決められた回数だけ処理を繰り返す(for文)ために使います。',
         hint: 'whileは英語で「～する間」だよね～',
 		image: 'imges/undraw_not_found_re_bh2e.svg' // 画像URLを追加
     },
@@ -60,7 +60,7 @@ const questions = [
             'データを入力するため'
         ],
         correctAnswer: 0,
-        explanation: '関数は、特定の処理をまとめて再利用可能にし、プログラムを分割して整理するために使用します。',
+        explanation: '関数は、特定の処理プロセスをパッケージ化して再利用可能にし、プログラムを整理するために使用します。',
         hint: '関数は、プログラミングを効率的にするための重要な要素だよ！',
 		image: 'imges/undraw_pen_tool_re_s92o.svg' // 画像URLを追加
     }
