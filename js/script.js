@@ -142,7 +142,10 @@ function showPopup(message, explanation, imageUrl) {
     const popupImage = document.getElementById('popup-image');
 
     popupMessage.textContent = message;
-    popupExplanation.innerHTML = explanation.replace(/\n/g, '<br>');
+
+    // 解説部分に下線を追加
+    popupExplanation.innerHTML = `<u>${explanation.replace(/\n/g, '<br>')}</u>`;
+    
     popupImage.src = imageUrl;
 
     // メッセージのスタイルを動的に変更
@@ -156,6 +159,7 @@ function showPopup(message, explanation, imageUrl) {
 
     popup.style.display = 'flex'; // ポップアップを表示する
 }
+
 
 
 function closePopupAndNextQuestion() {
@@ -178,3 +182,5 @@ window.onload = () => {
     document.getElementById('popup').style.display = 'none'; // 初期状態でポップアップを非表示にする
     document.getElementById('result-screen').style.display = 'none'; // 結果画面を非表示にする
 };
+
+
