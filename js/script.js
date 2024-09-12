@@ -21,7 +21,7 @@ const questions = [
             'データを表示するための画面'
         ],
         correctAnswer: 0,
-        explanation: '変数はデータを保存するための箱であり、\nプログラムでその中のデータを\n操作できるようにします。',
+        explanation: '変数はデータを保存するための箱であり、プログラムでその中のデータを操作できるようにします。',
         hint: '変数には色々なデータが入るよ！',
         image: 'imges/undraw_collecting_re_lp6p.svg' // 画像URLを追加
     },
@@ -34,7 +34,7 @@ const questions = [
             'プログラムを無限に繰り返す'
         ],
         correctAnswer: 1,
-        explanation: '条件分岐(if文)は、ある条件が満たされた場合に\n実行する処理を決定するために使います。',
+        explanation: '条件分岐(if文)は、ある条件が満たされた場合に実行する処理を決定するために使います。',
         hint: 'ifは英語でなんて言うかな？',
 		image: 'imges/undraw_mind_map_re_nlb6.svg' // 画像URLを追加
 	},
@@ -60,7 +60,7 @@ const questions = [
             'データを入力するため'
         ],
         correctAnswer: 0,
-        explanation: '関数は、特定の処理をまとめて再利用可能\nにし、プログラムを分割して整理するために\n使用します。',
+        explanation: '関数は、特定の処理をまとめて再利用可能にし、プログラムを分割して整理するために使用します。',
         hint: '関数は、プログラミングを効率的にするための重要な要素だよ！',
 		image: 'imges/undraw_pen_tool_re_s92o.svg' // 画像URLを追加
     }
