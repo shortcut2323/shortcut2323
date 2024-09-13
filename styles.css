@@ -200,7 +200,7 @@ h3{
     padding: 20px;
     border-radius: 10px;
     text-align: center;
-    width: 400px;
+    width: 350px;
     color: #333333;
     box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
 }
@@ -230,7 +230,7 @@ h3{
   }
 
   .name p {
-    font-size:50px
+    font-size:100px
       margin:0px 0px 0px 10px;
       color: #fff;
       font-family: arno-pro,serif;
